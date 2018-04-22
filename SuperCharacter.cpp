@@ -1577,6 +1577,55 @@ SuperCharacter::SuperCharacter(string superTextFile) {
         attributeArray[19] = false;// Char has SECRET IDENTITY
     }
 
+    else if (superTextFile == "Black Panther"){
+        name = "Black Panther";
+        attributeArray.resize(20);
+        attributeArray[0] = true; // Char is MORALLY GOOD
+        attributeArray[1] = true;// Char is MALE
+        attributeArray[2] = false;// Char can FLY
+        attributeArray[3] = false;// Char wears CAPE
+        attributeArray[4] = true;// Char is MARVEL
+        attributeArray[5] = true;// Char has SUPER POWERS
+        attributeArray[6] = false;// Char is X-MAN
+        attributeArray[7] = false;// Char is AVENGER
+        attributeArray[8] = false;// Char is GUARDIAN
+        attributeArray[9] = false;// Char is JUSTICE LEAGUE
+        attributeArray[10] = true;// Char wears MASK
+        attributeArray[11] = false;// Char wears RED
+        attributeArray[12] = true;// Char wears BLACK
+        attributeArray[13] = true;// Char is RICH
+        attributeArray[14] = true;// Char knows MARTIAL ARTS
+        attributeArray[15] = false;// Char is GENIUS
+        attributeArray[16] = true;// Char has SUPER STRENGTH
+        attributeArray[17] = false;// Char uses MAGIC
+        attributeArray[18] = true;// Char uses TECH
+        attributeArray[19] = false;// Char has SECRET IDENTITY
+    }
+
+    else if (superTextFile == "Martian Manhunter"){
+        name = "Martian Manhunter";
+        attributeArray.resize(20);
+        attributeArray[0] = true;// Char is MORALLY GOOD
+        attributeArray[1] = true;// Char is MALE
+        attributeArray[2] = true;// Char can FLY
+        attributeArray[3] = true;// Char wears CAPE
+        attributeArray[4] = false;// Char is MARVEL
+        attributeArray[5] = true;// Char has SUPER POWERS
+        attributeArray[6] = false;// Char is X-MAN
+        attributeArray[7] = false;// Char is AVENGER
+        attributeArray[8] = false;// Char is GUARDIAN
+        attributeArray[9] = true;// Char is JUSTICE LEAGUE
+        attributeArray[10] = false;// Char wears MASK
+        attributeArray[11] = true;// Char wears RED
+        attributeArray[12] = false;// Char wears BLACK
+        attributeArray[13] = false;// Char is RICH
+        attributeArray[14] = true;// Char knows MARTIAL ARTS
+        attributeArray[15] = true;// Char is GENIUS
+        attributeArray[16] = true;// Char has SUPER STRENGTH
+        attributeArray[17] = true;// Char uses MAGIC
+        attributeArray[18] = false;// Char uses TECH
+        attributeArray[19] = false;// Char has SECRET IDENTITY
+    }
 
 /*
  * default character initialization: end
