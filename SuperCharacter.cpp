@@ -5,10 +5,13 @@
 #include "SuperCharacter.h"
 #include <fstream>
 
+//simple method returns name of character
 string SuperCharacter::getName() {
     return name;
 }
 
+//constructor that contains initialization statements for default characters
+//constructor also has the ability to initialize custom characters from text document
 SuperCharacter::SuperCharacter(string superTextFile) {
 
     /*
@@ -1621,10 +1624,12 @@ SuperCharacter::SuperCharacter(string superTextFile) {
     }
 }
 
+//returns values stored in attribute array
 vector<bool> SuperCharacter::getattributeArray() {
     return attributeArray;
 }
 
+//increases certainty variable for a character
 void SuperCharacter::increaseCertainty() {
     certainty++;
 }

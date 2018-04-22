@@ -13,12 +13,12 @@ using namespace std;
 
 class SuperCharacter {
 private:
-    string name;
-    int certainty = 0;
-    vector <bool> attributeArray;
+    string name; // stores characters name
+    int certainty = 0; // tracks how many questions character has passed without being eliminated
+    vector <bool> attributeArray; // vector that stores attributes in the same order as questions that correspond to each attribute
 
 public:
-    SuperCharacter(string superTextFile);
+    SuperCharacter(string superTextFile); //comments on methods can be found near their definitions in SuperCharacter.cpp
     string getName();
     vector<bool> getattributeArray();
     void increaseCertainty();
